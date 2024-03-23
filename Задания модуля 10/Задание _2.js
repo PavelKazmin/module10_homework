@@ -2,7 +2,7 @@
 
 //Задание2
 
-(if-else)
+//(if-else)
 let x = 0
 
 if (x === Number || String || Boolean) {
@@ -11,7 +11,7 @@ if (x === Number || String || Boolean) {
     console.log ("Тип x не определен")
 }
 
-(switch)
+//(switch)
  let x =[1, 2, 3, 3, 4, 4, 4, 4, 4];
 
 switch (typeof x) {
