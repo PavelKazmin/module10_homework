@@ -13,3 +13,16 @@ let check = arr.every(function(item) {
 });
 
 console.log(check);
+
+
+const arr = [true, 12, 'строка'];
+
+let result = arr.every(function(item) {
+   if (typeof item === 'string') {
+      return true;
+   }else{
+      return false;
+   }
+});
+
+console.log(result);
